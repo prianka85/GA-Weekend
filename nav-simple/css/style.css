@@ -1,4 +1,48 @@
 
+.clearfix:after {
+     content: "."; /* adds a . at the end of the element */
+     display: block; /* makes it a block element */
+     clear: both; /* puts it on its own line (no elements can be on the same line) */
+     visibility: hidden; /* hides the . so users cannot see it displayed on the page */
+     line-height: 0; /* makes sure its hidden by making sure the line it is on cannot be seen */
+     height: 0; /* makes sure the block element height is 0 so it cannot be seen  */
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	width: 600px;
+	margin: 0px auto;
+}
+
+nav ul {
+	padding: 0px;
+}
+
+li {
+	float: left;
+	width: 190px;
+	margin: 0 5px;
+	height: 40px;
+}
+
+nav ul li a {
+	background-color: #FF6666;
+	width: 190px;
+	display: block;
+	height: 40px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	padding-top: 13px;
+}
+
+nav ul li a:hover, a.active {
+	background-color: #FF2266;
+}
 
 
 

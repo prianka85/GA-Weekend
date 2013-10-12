@@ -39,6 +39,19 @@ body {
      margin: 0 auto;
 }
 
+main {
+     float: left;
+     width: 640px;
+}
+
+aside {
+     width: 310px;
+     float: left;
+     background-color: white;
+     margin: 10px 0px 0px 10px;
+}
+
+
 h1
 {
 /* Image replacement keeps the text in the H1 for SEO purposes (because Google picks up h1 and assesses it in page rank) 
@@ -73,6 +86,12 @@ a {
 img {
      float: left;
      margin-right: 10px;
+}
+
+#sidebar {
+     float: left;
+     background: red;
+     width: 200px;
 }
 
 

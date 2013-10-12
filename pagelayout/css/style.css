@@ -1,0 +1,51 @@
+/*
+
+Project Name: Page Layout
+Client: Prianka Pradhan
+Author:	Prianka Pradhan | prianka.pradhan@gmail.com
+Developed @ GA Class in London;
+
+*/
+
+body {
+	background-image: url('../images/pattern1.png');
+}
+
+#container {
+	width: 1100px;
+	margin: auto;
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+	background-color: orangered;
+	margin: 0.2em 0 0;
+	padding: 0.2em;
+}
+
+h2 {
+	background-color: white;
+	padding: 0.5em 0.5em; 
+	margin: 0;
+}
+
+p {
+	background-color: white;
+	font-style: italic;
+	padding: 0.1em 7em 2em 7em;
+	margin: 0;
+	font-size: 18px;
+	font-family: "Times New Roman"; Times; serif;
+	letter-spacing: 0.2px;
+
+}
+
+footer {
+	background-color: orangered;
+	color: white;
+	padding: 1.5em 0.5em;
+	margin: 0;
+	font-size: 17px; 
+	font-family: "Times New Roman"; Times; serif;
+}

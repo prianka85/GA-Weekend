@@ -1,0 +1,78 @@
+/* 
+Project Name: Ecard.ly
+Client: General Assembly 
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack -  way to make sure browsers are all consistent in the way they behave*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack - helps with floating and alignment of elements*/
+.clearfix:after {
+     content: "."; /* adds a . at the end of the element */
+     display: block; /* makes it a block element */
+     clear: both; /* puts it on its own line (no elements can be on the same line) */
+     visibility: hidden; /* hides the . so users cannot see it displayed on the page */
+     line-height: 0; /* makes sure its hidden by making sure the line it is on cannot be seen */
+     height: 0; /* makes sure the block element height is 0 so it cannot be seen  */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+     background-color: #D6D6D6;
+     background-image: url('../images/background.jpg');
+     background-repeat: repeat-x; /* repeat x-axis:  repeats horizontally only - can position using background-position */
+     color: #000000;
+     font-size: 12px;
+}
+
+.container {
+     width: 960px;
+     margin: 0 auto;
+}
+
+h1
+{
+/* Image replacement keeps the text in the H1 for SEO purposes (because Google picks up h1 and assesses it in page rank) 
+but hides it and replaces the text with the image (which can be the company logo.) 
+This can be done using display: none, but this CSS is picked up by Google which will then ignore the h1 ß*/
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 216px;
+     height: 213px;
+     background-image: url('../images/logo.png');
+     margin: 0 auto;
+}
+
+h2 {
+     font-size: 20px;
+}
+
+article {
+     background: white;
+     padding: 10px; /* makes sure that text does not push up right against the edge of the container/page */
+     margin: 10px 0px;
+}
+
+a {
+     color: #cc6633;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+img {
+     float: left;
+     margin-right: 10px;
+}
+
+

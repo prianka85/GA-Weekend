@@ -1,0 +1,40 @@
+/*
+CSS file for Brook & Lyn
+-- Layout
+-- Typography*/
+
+/*===Layout===*/
+
+body {
+	font-size: 16px/1.6;
+	font-family: "Times New Roman", serif;
+	background-color: #F3EBE9;
+}
+
+#container /*use the # symbol to target an ID*/ {
+	width: 960px;
+	margin: 10px auto;/* Order is top, right, bottom, left. Can also set top and bottom together and left and right together e.g. top and bottom 10px left and right auto - If you set the margin to auto, the browser is going to try and make the margin as equal/balanced as possible on either side i.e. centre it*/
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+/*===Typography===*/
+
+h1 {
+	text-transform: uppercase;
+	color: #656565;
+	font-family: "Helvetica", sans-serif;
+	font-weight: lighter;
+}
+
+img {
+	border /*could be solid, dashed*/: 3px #CCCCCC solid;
+}
+
+a img /* deals with images inside an a tag*/ {
+	padding: 1px;
+}
+
+a {
+	text-decoration: none;
+}

@@ -1,0 +1,49 @@
+#container {
+	width: 960px;
+	margin: 0 auto;
+	background: #CCC;
+}
+
+#header {
+	background: blue;
+	color: white;
+	padding: 10px 0;
+	margin: 20px 0; 
+}
+
+#content {
+	background: white;
+	padding: 5px 0;
+	width: 560px;
+	float: left;
+}
+
+img {
+	margin: 10px;
+}
+
+.alignleft {
+	float: left;
+}
+
+p {
+	font-size: 14px;
+}
+
+.sidebar {
+	float: left;
+	background: red;
+	width: 200px;
+}
+
+#sidebar p {
+	font-size: 13px;
+}
+
+#footer {
+	clear: both;
+}
+
+
+
+

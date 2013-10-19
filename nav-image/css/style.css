@@ -4,7 +4,7 @@ GENERAL
 
 .clearfix:after {
      content: "."; /* adds a . at the end of the element */
-     display: block; /* makes it a block element */
+   x  display: block; /* makes it a block element */
      clear: both; /* puts it on its own line (no elements can be on the same line) */
      visibility: hidden; /* hides the . so users cannot see it displayed on the page */
      line-height: 0; /* makes sure its hidden by making sure the line it is on cannot be seen */
